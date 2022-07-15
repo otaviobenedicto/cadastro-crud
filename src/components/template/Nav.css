@@ -1,0 +1,31 @@
+aside.menu-area{
+    background-color: var(--bg-dark);
+}
+.menu a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px;
+    font-weight: 300;
+}
+.menu a:hover{
+    background: linear-gradient(135deg,#07a7e3 0%, #32dac3 100%);
+}
+.menu a:active{
+    background: linear-gradient(67.5deg,#07a7e3 100%, #32dac3 0%)
+}
+@media(max-width: 768px) {
+    .menu {
+        display:flex;
+        justify-content: center;
+    }
+
+    .menu a {
+        z-index: 5;
+    }
+
+    .menu {
+        height: 100%;
+        justify-content: space-around;
+    }
+}

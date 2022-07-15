@@ -1,0 +1,12 @@
+@import url(//db.onlinewebfonts.com/c/2433a27ece377df1cc79fc1eba727161?family=Superstar+X);
+
+i.fa-server > span{
+    font-family: "Superstar X",serif;
+}
+footer.footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #fff;
+    box-shadow: var(--shadow);
+}
